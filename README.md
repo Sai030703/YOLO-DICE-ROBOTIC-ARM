@@ -6,28 +6,28 @@ YOLOv11 Dice Detection & Robotic Arm Control
 
 # 🔧 Technologies Used
 
-YOLOv11 (Ultralytics)
-Python
-OpenCV
-Roboflow (for annotation and dataset generation)
-TCP/IP socket programming
-Igus Robotic Arm
-Igus IRC Digital Twin Environment
+* YOLOv11 (Ultralytics)
+* Python
+* OpenCV
+* Roboflow (for annotation and dataset generation)
+* TCP/IP socket programming
+* Igus Robotic Arm
+* Igus IRC Digital Twin Environment
 
 # 🧠 Project Workflow
 
-📸 Images of dice were annotated in Roboflow
-🧠 A YOLOv11 model was trained and tested
-🎥 Real-time detection using webcam and OpenCV
-🤖 The detected number is used to trigger robotic arm movements via CRI commands
-🧪 Simulated first using Igus IRC (digital twin)
+* 📸 Images of dice were annotated in Roboflow
+* 🧠 A YOLOv11 model was trained and tested
+* 🎥 Real-time detection using webcam and OpenCV
+* 🤖 The detected number is used to trigger robotic arm movements via CRI commands
+* 🧪 Simulated first using Igus IRC (digital twin)
 
 
 # ⚙️ Files Explained
 
-main.py – Real-time YOLO detection + task dispatch
-robot_controller.py – TCP/IP control interface for Igus robot
-my_model.pt – YOLOv11 model trained on dice detection
+* main.py – Real-time YOLO detection + task dispatch
+* robot_controller.py – TCP/IP control interface for Igus robot
+* my_model.pt – YOLOv11 model trained on dice detection
 
 
 
