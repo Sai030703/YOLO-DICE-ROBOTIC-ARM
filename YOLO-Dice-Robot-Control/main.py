@@ -5,7 +5,7 @@ from robot_controller import RobotController
 
 # Load YOLOv11 model (make sure best.pt is in your folder)
 print("📦 Loading YOLOv11 model...")
-model = YOLO("my_model.pt")  # <-- Change filename if needed
+model = YOLO("my_model.pt") 
 
 # Get class labels from the model
 labels = model.names
