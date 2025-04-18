@@ -29,6 +29,13 @@ YOLOv11 Dice Detection & Robotic Arm Control
 * robot_controller.py – TCP/IP control interface for Igus robot
 * my_model.pt – YOLOv11 model trained on dice detection
 
+# Sample Output – Real-Time Dice Detection 
+
+This image shows a successful inference result using the custom-trained YOLOv11 model on a webcam frame. The model detects two sides of a dice:
+* Class 6 with 87% confidence (top face)
+* Class 5 with 63% confidence (front face)
+  
+![output](https://github.com/user-attachments/assets/0bdedb35-37e2-45d1-8919-05a18a0c6039)
 
 
 
